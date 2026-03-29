@@ -172,6 +172,7 @@ body { font-family: var(--font-sans); font-size: 15px; line-height: 1.6; -webkit
 .btn-ghost:hover { transform: translateY(-1px); box-shadow: 0 4px 12px rgba(0,0,0,0.1); background: var(--bg-3); }
 .footer-logo-svg { display: block; height: 18px; width: auto; }
 .footer-logo-svg svg { display: block; height: 18px; width: auto; }
+.cta-footer-right .footer-logo-svg svg > path:first-child { fill: #0C0C0B !important; }
 .footer-logo-row { display: flex; align-items: center; gap: 8px; margin-bottom: 20px; }
 .footer-what { font-size: 13px; line-height: 1.75; color: var(--fg-2); max-width: 380px; margin-bottom: 24px; }
 .footer-compliance-icons { display: flex; flex-wrap: nowrap; gap: 8px; margin-bottom: 24px; align-items: flex-start; justify-content: space-between; }
@@ -356,14 +357,9 @@ This page explains the gap — and what closes it.</p>
   <div class="section-wrap">
     <div class="section-header reveal">
       <div class="section-label">01 — What NIS2 requires</div>
-      <p class="section-qualifier">Read it precisely. The difference matters.</p>
+      <p class="section-qualifier">The gap lives in one word.</p>
       <h2 class="section-title">Article 21 is asking for something most programs can't produce.</h2>
-      <p class="section-body">NIS2 Article 21 mandates risk management measures. Under 21(2)(g), it specifically names cyber hygiene practices and cybersecurity training as requirements for in-scope entities.</p>
-    </div>
-    <div class="article-callout reveal">
-      <div class="article-ref">NIS2 Article 21(2)(g)</div>
-      <div class="article-text">"Basic cyber hygiene practices and cybersecurity training" — as a mandatory risk-management measure for in-scope entities.</div>
-      <div class="article-note">The critical word is "practices." Not events. Not completions. Practices — which implies an ongoing, active, measurable process. Supervisory authorities examining NIS2 compliance are asking for evidence of that process. Training records are not that evidence.</div>
+      <p class="section-body">NIS2 Article 21(2)(g) requires cyber hygiene and cybersecurity training as mandatory risk-management measures. The critical word is not "training." It is "practices." Not events. Not completions. Practices — an ongoing, active, measurable process. That is a materially different standard than running a training program.</p>
     </div>
     <div class="geist-grid geist-grid--3 reveal-group">
       <div class="g-cell reveal">
@@ -389,7 +385,7 @@ This page explains the gap — and what closes it.</p>
       <div class="section-label">02 — The evidence gap</div>
       <p class="section-qualifier">What you can prove today vs. what NIS2 asks you to prove.</p>
       <h2 class="section-title">Your program produces the wrong kind of evidence.</h2>
-      <p class="section-body">The gap is not about effort. It's about architecture. Your current program may be well-run, well-resourced, and genuinely effective at delivering training content. None of that is the issue.</p>
+      <p class="section-body">The gap is not about effort. Your current program may be well-run and genuinely effective at delivering training content. The issue is structural: what it can produce as evidence doesn't match the standard NIS2 is establishing.</p>
     </div>
     <p class="section-body" style="margin-bottom:32px;color:var(--fg-inverse-2);">The issue is what it can produce as evidence — and whether that evidence meets the standard NIS2 is establishing.</p>
     <table class="reg-table reveal">
@@ -402,7 +398,7 @@ This page explains the gap — and what closes it.</p>
         <tr><td>Audit-ready output</td><td>Training logs and phishing campaign reports</td><td>A structured risk report reviewable by a supervisory authority</td></tr>
       </tbody>
     </table>
-    <div class="note note--info" style="margin-top:24px;background: rgba(59,110,244,0.1); border-color: rgba(255,255,255,0.08); border-left-color: var(--accent);"><svg class="note-icon" width="16" height="16" viewBox="0 0 16 16" fill="none"><circle cx="8" cy="8" r="6.5" stroke="currentColor" stroke-width="1"></circle><path d="M8 7v4M8 5.5v.5" stroke="currentColor" stroke-width="1.2" stroke-linecap="round"></path></svg><span style="color: var(--fg-inverse-2);">The first NIS2 supervisory examinations across EU member states are revealing this gap consistently. Organisations that believed their SAT program satisfied Article 21 are finding that 'we ran training' is not the same as 'we manage human risk.'</span></div>
+    <div class="note note--info" style="margin-top:24px;background: rgba(59,110,244,0.1); border-color: rgba(255,255,255,0.08); border-left-color: var(--accent);"><svg class="note-icon" width="16" height="16" viewBox="0 0 16 16" fill="none"><circle cx="8" cy="8" r="6.5" stroke="currentColor" stroke-width="1"></circle><path d="M8 7v4M8 5.5v.5" stroke="currentColor" stroke-width="1.2" stroke-linecap="round"></path></svg><span style="color: var(--fg-inverse-2);">The standard Article 21 describes is not satisfied by training records. "We ran training" and "we actively manage human risk" are not the same claim. A supervisory authority will distinguish between them — the table above shows exactly where the gap is.</span></div>
   </div>
 </section><section class="section" id="the-infrastructure">
   <div class="section-wrap">
@@ -460,7 +456,6 @@ This page explains the gap — and what closes it.</p>
         <div class="cell-body">A log of system-triggered interventions and training assignments, showing that the program responded to individual risk state. Not a calendar. A record of active management — which is precisely what distinguishes a practice from a program. This is the output most SAT programs cannot produce.</div>
       </div>
     </div>
-    <div class="note note--info" style="margin-top:24px;background: rgba(59,110,244,0.1); border-color: rgba(255,255,255,0.08); border-left-color: var(--accent);"><svg class="note-icon" width="16" height="16" viewBox="0 0 16 16" fill="none"><circle cx="8" cy="8" r="6.5" stroke="currentColor" stroke-width="1"></circle><path d="M8 7v4M8 5.5v.5" stroke="currentColor" stroke-width="1.2" stroke-linecap="round"></path></svg><span style="color: var(--fg-inverse-2);">The compliance gap will not close by running more training. It closes when the architecture changes — when the system produces evidence of active management rather than records of delivery.</span></div>
   </div>
 </section>
 <div class="cta-footer-block" id="cta">
@@ -469,9 +464,9 @@ This page explains the gap — and what closes it.</p>
       <div class="g-cell cta-footer-left">
         <div class="cta-label">Next step</div>
         <h2 class="cta-title">Map your NIS2 obligation to infrastructure that closes it.</h2>
-        <p class="cta-body">A 30-minute conversation with a Moxso account executive. Bring your current program setup and your compliance timeline. We'll show you exactly where the evidence gap is and what it takes to close it before your next supervisory examination.</p>
+        <p class="cta-body">A 30-minute session with a Moxso account executive. Bring your current program and your compliance timeline. We'll show you exactly where the evidence gap is, what it takes to close it, and what your supervisory authority would see from each architecture.</p>
         <div class="cta-actions">
-          <a href="https://moxso.com/contact" class="btn-primary">Talk to an AE</a>
+          <a href="https://moxso.com/contact" class="btn-primary">Map the compliance gap</a>
           <a href="https://explore.moxso.com/diagnostic" class="btn-ghost">Take the risk diagnostic</a>
         </div>
       </div>
